@@ -1,0 +1,26 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#timeline{
+    background: rgb(162, 238, 228);
+    width: 500px;
+    height: 100vh;
+    overflow: scroll;
+}
+.task{
+    display: flex;
+    flex-flow: row;
+    background: rgb(168, 168, 168);
+    height: 20px;
+    margin: 10px;
+}
+.task>span{
+    width: 100px;
+}
+svg>rect:hover{
+    fill: rebeccapurple;
+}
