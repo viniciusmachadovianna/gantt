@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.svg?v=2" type="image/x-icon">
     <title>Gantt</title>
@@ -12,17 +12,22 @@
     <nav></nav>
     <main>
         <section id="timeline">
+            <div class="line">
+                <div class="atom" id="d1m1">1</div>
+                <div class="atom2" id="d2m1">2</div>
+                <div class="atom" id="d4m1">3</div>
+                <div class="atom2" id="d5m1">4</div>
+                <div class="atom" id="d6m1">5</div>
+                <div class="atom2" id="d7m1">6</div>
+            </div>
             <div class="task" id="t1">
                 <span>task 1</span>
-                <svg class="gantt-chart" width="" height="">
-                    <rect x="0" y="0" width="200" height="20" fill="blue" />
-                </svg>
+                <!-- <svg class="gantt-chart" width="" height=""> -->
+                <div class="taskLine" id="tl1"></div>
             </div>
             <div class="task" id="t2">
                 <span>task 2</span>
-                <svg class="gantt-chart" width="" height="">
-                <rect x="20" y="0" width="80" height="20" fill="green" />
-                </svg>
+                <div class="taskLine" id="tl2"></div>
             </div>
               
         </section>

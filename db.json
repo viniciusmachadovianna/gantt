@@ -1,0 +1,23 @@
+{
+    "tasks": [
+      {
+        "name": "UT-09",
+        "description": "troca de parafusos",
+        "startDate": "2025-01-10",
+        "dueDate": "2025-01-20",
+        "assigned": "Joao",
+        "createdBy": "Lucas",
+        "creationTime": "2025-01-09T10:00:00Z"
+      },
+      {
+        "name": "UP-01",
+        "description": "REPARO NO MOTOR",
+        "startDate": "2025-01-20",
+        "dueDate": "2025-01-30",
+        "assigned": "Pedro",
+        "createdBy": "Renato",
+        "creationTime": "2025-01-09T10:00:00Z"
+      }
+    ]
+  }
+  

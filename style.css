@@ -11,15 +11,52 @@ html,body{
     height: 100vh;
     overflow: scroll;
 }
+.line{
+    width: 100%;
+    background: gray;
+    height: 20px;
+    display: flex;
+    padding-left: 100px;
+}
+.atom,.atom2{
+    width: 20px;
+    height: 20px;
+}
+.atom{
+    background: darkred;
+}
+.atom2{
+    background: rgb(173, 0, 0);
+}
+.point{
+    width: 10px;
+    height: 10px;
+    background: lightcoral;
+}
 .task{
     display: flex;
     flex-flow: row;
     background: rgb(168, 168, 168);
     height: 20px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 .task>span{
     width: 100px;
+}
+.taskLine{
+    height: 20px;
+    position: absolute;
+    border-radius: 10px;
+}
+#tl1{
+    left: calc(100px + 0px);
+    background: red;
+    width: 200px; /* 20px=1day */
+}
+#tl2{
+    left: calc(100px + 20px);
+    background: green;
+    width: 40px; /* 20px=1day */
 }
 svg>rect:hover{
     fill: rebeccapurple;
