@@ -18,14 +18,27 @@ html,body{
     display: flex;
     padding-left: 100px;
 }
-.atom,.atom2{
+.monthAtom{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 600px;
+
+}
+.monthAtom>span{
+    background: peru;
+    width: 100%;
+    text-align: center;
+    margin: 1px;
+    
+}
+.dayAtom,.dayAtom2{
     width: 20px;
     height: 20px;
 }
-.atom{
+.dayAtom{
     background: darkred;
 }
-.atom2{
+.dayAtom2{
     background: rgb(173, 0, 0);
 }
 .point{
